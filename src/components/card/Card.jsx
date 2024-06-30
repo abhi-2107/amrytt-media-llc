@@ -2,14 +2,13 @@ import Image from "next/image";
 
 function Card({ title, imageUrl, description }) {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden ">
       <div className="relative w-full h-56">
         <Image
           src={imageUrl}
           alt={title}
-          layout="fill"
-          objectFit="cover"
-          className="w-full h-full object-cover"
+
+          className="w-full h-full object-cover -z-10"
         />
       </div>
       <div className="p-6">

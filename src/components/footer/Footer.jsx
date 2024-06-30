@@ -1,12 +1,13 @@
 function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-fuchsia-700/10 to-red-600/10  shadow-md mt-8">
+    <footer className="bg-gradient-to-r from-fuchsia-700/10 to-red-600/10  shadow-md ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold text-gray-700">Contact Us</h3>
-            <p className="text-gray-600 mt-2">Email: test@amrytt.com</p>
-            <p className="text-gray-600">Phone: +91 9876543210</p>
+            <a className="text-gray-600 mt-2   hover:underline" href="mailto: test@amrytt.com">Email: test@amrytt.com</a>
+            <br />
+            <a className="text-gray-600 hover:underline" href="tel: +91 9876543210">Phone: +91 9876543210</a>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-700">Address</h3>
@@ -43,10 +44,9 @@ function Footer() {
                 >
                   <path
                     fill="#212121"
-                    fill-rule="evenodd"
+ 
                     d="M38,42H10c-2.209,0-4-1.791-4-4V10c0-2.209,1.791-4,4-4h28	c2.209,0,4,1.791,4,4v28C42,40.209,40.209,42,38,42z"
-                    clip-rule="evenodd"
-                  ></path>
+                   ></path>
                   <path
                     fill="#fff"
                     d="M34.257,34h-6.437L13.829,14h6.437L34.257,34z M28.587,32.304h2.563L19.499,15.696h-2.563 L28.587,32.304z"

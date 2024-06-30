@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-gray-100 pb-8">
+      <div className="bg-gray-100 pb-8 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-center font-bold text-4xl p-8">
             Latest Articals

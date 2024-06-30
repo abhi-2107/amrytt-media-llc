@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar/navbar";
 import Image from "next/image";
 import featureImg from "@/assets/feature.jpg";
 import marketing1 from "@/assets/marketing1.jpg";

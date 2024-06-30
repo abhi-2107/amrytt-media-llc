@@ -17,7 +17,7 @@ function Navbar() {
               <li>
                 <Link
                   href="/dashboard"
-                  className="bg-transparent hover:bg-gray-100 text-gray-700 font-semibold py-2 px-4 border border-gray-300 rounded"
+                  className="bg-transparent hover:bg-gray-100 text-gray-700 font-bold py-2 px-4 border border-gray-300 rounded"
                 >
                   Login
                 </Link>
@@ -25,9 +25,9 @@ function Navbar() {
               <li>
                 <Link
                   href="/"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded "
                 >
-                  Sign Up
+                  Sign out
                 </Link>
               </li>
             </ul>

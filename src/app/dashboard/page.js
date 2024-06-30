@@ -4,7 +4,7 @@ import maleImg from "@/assets/man.png";
 import Image from "next/image";
 import Link from "next/link";
 
-function page() {
+function Dashboard() {
   let userKeys = Object.keys(users[0]);
   const USER_KEYS = userKeys.splice(5);
   //   console.log(USER_KEYS);
@@ -109,4 +109,4 @@ function page() {
   );
 }
 
-export default page;
+export default Dashboard;
